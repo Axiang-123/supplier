@@ -8,6 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.6.8",
+    "element-plus": "^2.7.3",
+    "path-to-regexp": "^6.2.2",
+    "sass": "^1.77.2",
+    "sass-loader": "^14.2.1",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.3"
@@ -23,5 +29,8 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "typescript": "~4.5.5"
+  },
+  "rules": {
+    "vue/multi-word-component-names": "off"
   }
 }
