@@ -14,8 +14,8 @@
         </div>
         <div class="bullshit__headline">{{ message }}</div>
         <div class="bullshit__info">请检查您输入的网址是否正确，请点击以下按钮返回主页或者发送错误报告</div>
-        <a href="/home" class="bullshit__return-home">返回首页</a>
-        <a href="/login" class="bullshit__return-home" style="margin-left: 20px;">重新登陆</a>
+        <a @click="goToLike('/home')" class="bullshit__return-home">返回首页</a>
+        <a @click="goToLike('/login')" class="bullshit__return-home" style="margin-left: 20px;">重新登陆</a>
       </div>
     </div>
   </div>
@@ -24,6 +24,7 @@
 <script setup lang="ts">
 import img404 from '@/assets/404_images/404.png'
 import img404Cloud from '@/assets/404_images/404_cloud.png'
+import { goToLike } from "@/utils/utils";
 const message = '特朗普说这个页面你不能进......'
 </script>
 

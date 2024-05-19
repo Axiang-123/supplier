@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkmy_vue3_project"]=self["webpackChunkmy_vue3_project"]||[]).push([[953],{9953:function(e,n,u){u.r(n),u.d(n,{default:function(){return a}});var r=u(641);const t=(0,r.Lk)("div",{class:"home"},null,-1);function c(e,n){const u=(0,r.g2)("erp-file");return(0,r.uX)(),(0,r.CE)(r.FK,null,[t,(0,r.bF)(u)],64)}var s=u(6262);const l={},o=(0,s.A)(l,[["render",c]]);var a=o}}]);
-//# sourceMappingURL=953.542e5958.js.map

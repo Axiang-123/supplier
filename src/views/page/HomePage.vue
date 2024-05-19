@@ -1,16 +1,21 @@
 <template>
-  <!-- 首页 -->
   <div class="home">
+    <h1 class="color">这是首页</h1>
+    <erp-file></erp-file>
+    <bread-crumb></bread-crumb>
   </div>
-  <erp-file></erp-file>
+
+
 </template>
 
 <script setup lang="ts">
+import BreadCrumb from '@/components/Breadcrumb/BreadCrumb.vue';
+
 
 
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

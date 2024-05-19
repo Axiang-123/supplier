@@ -20,14 +20,14 @@
                 </el-form-item>
                 <el-button type="primary" style="width:100%;margin:20px 0;height: 46px;" :loading="loading"
                     @click="submitForm(ruleFormRef)">登录</el-button>
-                    <p style="text-align: center;"> <a href="/404">去注册</a></p>
+                    <p style="text-align: center;"> <a @click="goToLike('/404')" class="link">去注册</a></p>
             </el-form>
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import router from '@/router';
+import { goToLike } from "@/utils/utils";
 import { User, Lock } from '@element-plus/icons-vue'
 import { ElMessage, FormInstance, FormRules } from 'element-plus';
 import { reactive, ref } from 'vue';
@@ -47,7 +47,7 @@ const submitForm = async (formEl: FormInstance | undefined) => {
         loading.value = valid
         if (valid) {
             ElMessage.success('登录成功')
-            router.push('/home')
+            goToLike('/home')
         } else {
             ElMessage.error('请填写必填')
         }

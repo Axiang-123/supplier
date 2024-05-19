@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -11,7 +11,6 @@
     "@element-plus/icons-vue": "^2.3.1",
     "axios": "^1.6.8",
     "element-plus": "^2.7.3",
-    "path-to-regexp": "^6.2.2",
     "sass": "^1.77.2",
     "sass-loader": "^14.2.1",
     "vue": "^3.2.13",
@@ -28,6 +27,8 @@
     "@vue/eslint-config-typescript": "^9.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "install": "^0.13.0",
+    "sass-resources-loader": "^2.2.5",
     "typescript": "~4.5.5"
   },
   "rules": {
